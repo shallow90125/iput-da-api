@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 @app.route("/", methods=['GET'])
 def home():
-    return "hello"
+    return "hello", 200
 
 
 @app.route("/diabetes", methods=['GET'])
