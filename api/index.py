@@ -1,6 +1,6 @@
 from flask import Flask, request
-import pickle
-import pandas as pd
+# import pickle
+# import pandas as pd
 # import numpy as np
 import random
 
